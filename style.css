@@ -1,8 +1,8 @@
 body{
-    background-color: rgb(228, 249, 249);
+    background-image: url(assets/background.jpg)
 }
 #header{
-    background-color: darkgreen;
+    background-color: rgb(255, 240, 201);
     color: white;
     position: absolute;
     width: 100%;
@@ -21,21 +21,22 @@ h3{
 }
 a{
     text-decoration: none;
-    color: rgb(104, 54, 27);
+    color: teal;
+    padding: 5px;
     /* color: rgb(221, 164, 88); */
 }
 a:hover{
-    background: rgb(104, 54, 27);
+    background: teal;
     padding: 5px;
     border-radius: 10px;
-    color: darkgreen;
+    color: rgb(255, 240, 201);
     text-decoration: none;
 }
 
 #nav{
     float: right;
     margin-right: 5%;
-    color: rgb(104, 54, 27);
+    color: teal;
 }
 
 #main{
@@ -54,8 +55,8 @@ footer{
     position: absolute;
     bottom: 0%;
     text-align: center;
-    background-color: darkgreen;
-    color: rgb(104, 54, 27);
+    background-color: rgb(255, 240, 201);
+    color: teal;
     clear: both;
     width: 100%;
     height: 10%;
@@ -67,24 +68,25 @@ footer{
     width: 200px;
     height: auto;
     float: left;
-    margin-right: 5px;
+    margin-right: 15px;
     padding-bottom: 10px;
+    
 }
 #label{
     padding-top: 7px;
-    color: darkgreen;
+    color: rgb(255, 240, 201);
     border-bottom: 3px, solid, black;
 }
 
 .about{
     
-    margin-left: 5px;
+    margin-left: 15px;
 }
 #border{
     background-color: darkgrey;
     height: 2px;
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 textarea{
     clear: both;
@@ -102,8 +104,8 @@ label{
 }
 #button{
     float: right;
-    color: rgb(104, 54, 27);
-    background-color: darkgreen;
+    color: teal;
+    background-color: rgb(255, 240, 201);
     width: 15%;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -111,8 +113,8 @@ label{
 }
 
 #button:hover{
-    background: rgb(104, 54, 27);
-    color: darkgreen;
+    background: teal;
+    color: rgb(255, 240, 201);
     border-radius: 10px;
 }
 
@@ -131,7 +133,7 @@ label{
 
 .img-label{
     width: 200px;
-    background-color: darkgreen;
+    background-color: rgb(255, 240, 201);
     float: left;
     text-align: center;
 }
@@ -140,8 +142,8 @@ label{
     position: absolute;
     bottom: -15%;
     text-align: center;
-    background-color: darkgreen;
-    color: rgb(104, 54, 27);
+    background-color: rgb(255, 240, 201);
+    color: teal;
     clear: both;
     width: 100%;
     height: 10%;
