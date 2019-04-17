@@ -48,12 +48,13 @@ a:hover{
     background-color: white;
     width: 80%;
     clear: both !important;
+    border-radius: 5px;
     
 }
 
 footer{
-    position: absolute;
-    bottom: 0%;
+    position: absolute !important;
+    bottom: 0% !important;
     text-align: center;
     background-color: rgb(255, 240, 201);
     color: teal;
@@ -74,7 +75,7 @@ footer{
 }
 #label{
     padding-top: 7px;
-    color: rgb(255, 240, 201);
+    color: teal;
     border-bottom: 3px, solid, black;
 }
 
@@ -129,6 +130,7 @@ label{
     float: left;
     clear: right;
     
+    
 }
 
 .img-label{
@@ -136,15 +138,16 @@ label{
     background-color: rgb(255, 240, 201);
     float: left;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #footer-p{
-    position: absolute;
-    bottom: -15%;
+    position: absolute !important;
+    bottom: -25% !important;
     text-align: center;
     background-color: rgb(255, 240, 201);
     color: teal;
-    clear: both;
+    clear: both !important;
     width: 100%;
     height: 10%;
     padding-top: 2%;
